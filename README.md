@@ -1,33 +1,68 @@
-Step 1: To get started, we need to open a command prompt.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Step 2: Create a project folder named reactproject1:
+## Available Scripts
 
-mkdir reactproject1
+In the project directory, you can run:
 
-Step 3: Move to the project folder, using cd reactproject1, so we can install React into it.
+### `yarn start`
 
-cd reactproject1
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Step 4: Create a package.json file, the following command will walk you through creating a package.json file.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-npm init
+### `yarn test`
 
-Step 5: Install React and other modules using npm install — save react, thiswill install React into your project and update the package.json file with dependencies.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-npm install --save react
+### `yarn build`
 
-We can install additional packages using npm install — save and the name of the package we want to install. Here we are installing react-dom: npm install — save react-dom
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-npm install --save react-dom
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-npm install -g create-react-app
-Create-React-App is installed in the following location: C:\Users\<username>\AppData\Roaming\npm\node_modules\create-react-app\
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Step 2: To create a new project and deploy React into it, we run create-react-app <project_name>. Let’s do this to create reactproject2.
+### `yarn eject`
 
-create-react-app reactproject2
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-cd reactproject2
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-And npm start will run the project application.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
